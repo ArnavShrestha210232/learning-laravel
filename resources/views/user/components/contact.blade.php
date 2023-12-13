@@ -88,3 +88,10 @@
         </div>
     </section>
 @endsection
+@section('js')
+<!--Google Map APi Key-->
+    <script src="http://maps.google.com/maps/api/js?key=AIzaSyDTPlX-43R1TpcQUyWjFgiSfL_BiGxslZU"></script>
+    <script src="{{asset('user/js/map-script.js')}}"></script>
+    <!--End Google Map APi-->
+    
+@endsection
