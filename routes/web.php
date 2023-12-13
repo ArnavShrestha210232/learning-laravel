@@ -32,3 +32,4 @@ Route::get('/gallery', [UserController::class, 'gallery'])->name('gallery');
 Route::get('/language', [UserController::class, 'language'])->name('language');
 Route::get('/abroad', [UserController::class, 'abroad'])->name('abroad');
 Route::get('/message', [UserController::class, 'message'])->name('message');
+Route::get('/search', [UserController::class, 'search'])->name('search');
