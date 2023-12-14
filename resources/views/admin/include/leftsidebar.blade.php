@@ -4,13 +4,13 @@
         <!-- sidebar menu start-->
         <ul class="sidebar-menu" id="nav-accordion">
             <li>
-                <a class="active" href="index.html">
+                <a class="active" href="{{ route('admin.dashboard') }}">
                     <i class="fa fa-dashboard"></i>
                     <span>Dashboard</span>
                 </a>
             </li>
 
-            <li class="sub-menu">
+            {{-- <li class="sub-menu">
                 <a href="javascript:;">
                     <i class="fa fa-laptop"></i>
                     <span>Layouts</span>
@@ -23,9 +23,9 @@
                     <li><a href="language_switch_bar.html">Language Switch Bar</a></li>
                     <li><a href="email_template.html" target="_blank">Email Template</a></li>
                 </ul>
-            </li>
+            </li> --}}
 
-            <li class="sub-menu">
+            {{-- <li class="sub-menu">
                 <a href="javascript:;">
                     <i class="fa fa-book"></i>
                     <span>UI Elements</span>
@@ -40,15 +40,15 @@
                     <li><a href="nestable.html">Nestable</a></li>
                     <li><a href="font_awesome.html">Font Awesome</a></li>
                 </ul>
-            </li>
+            </li> --}}
 
             <li class="sub-menu">
                 <a href="javascript:;">
                     <i class="fa fa-cogs"></i>
-                    <span>Components</span>
+                    <span>Profile Settings</span>
                 </a>
                 <ul class="sub">
-                    <li><a href="grids.html">Grids</a></li>
+                    <li><a href="{{ route('sliders.index') }}">Home Slider</a></li>
                     <li><a href="calendar.html">Calendar</a></li>
                     <li><a href="gallery.html">Gallery</a></li>
                     <li><a href="todo_list.html">Todo List</a></li>
@@ -59,17 +59,13 @@
             <li class="sub-menu">
                 <a href="javascript:;">
                     <i class="fa fa-tasks"></i>
-                    <span>Form Stuff</span>
+                    <span>Components</span>
                 </a>
                 <ul class="sub">
-                    <li><a href="form_component.html">Form Components</a></li>
-                    <li><a href="advanced_form_components.html">Advanced Components</a></li>
-                    <li><a href="form_wizard.html">Form Wizard</a></li>
-                    <li><a href="form_validation.html">Form Validation</a></li>
-                    <li><a href="dropzone.html">Dropzone File Upload</a></li>
-                    <li><a href="inline_editor.html">Inline Editor</a></li>
-                    <li><a href="image_cropping.html">Image Cropping</a></li>
-                    <li><a href="file_upload.html">Multiple File Upload</a></li>
+
+                    <li><a href="{{ route('calender') }}">Calender</a></li>
+                    <li><a href="{{ route('todo') }}">To-do</a></li>
+
                 </ul>
             </li>
             <li class="sub-menu">
@@ -78,13 +74,13 @@
                     <span>Data Tables</span>
                 </a>
                 <ul class="sub">
-                    <li><a href="basic_table.html">Basic Table</a></li>
-                    <li><a href="responsive_table.html">Responsive Table</a></li>
-                    <li><a href="dynamic_table.html">Dynamic Table</a></li>
-                    <li><a href="editable_table.html">Editable Table</a></li>
+                    <li><a href="{{ route('basictable') }}">Basic Table</a></li>
+                    <li><a href="{{ route('responsivetable') }}">Responsive Table</a></li>
+                    <li><a href="{{ route('dynamictable') }}">Dynamic Table</a></li>
+                    <li><a href="{{ route('editabletable') }}">Editable Table</a></li>
                 </ul>
             </li>
-            <li class="sub-menu">
+            {{-- <li class="sub-menu">
                 <a href="javascript:;">
                     <i class=" fa fa-envelope"></i>
                     <span>Mail</span>
@@ -93,17 +89,17 @@
                     <li><a href="inbox.html">Inbox</a></li>
                     <li><a href="inbox_details.html">Inbox Details</a></li>
                 </ul>
-            </li>
+            </li> --}}
             <li class="sub-menu">
                 <a href="javascript:;">
                     <i class=" fa fa-bar-chart-o"></i>
                     <span>Charts</span>
                 </a>
                 <ul class="sub">
-                    <li><a href="morris.html">Morris</a></li>
-                    <li><a href="chartjs.html">Chartjs</a></li>
-                    <li><a href="flot_chart.html">Flot Charts</a></li>
-                    <li><a href="xchart.html">xChart</a></li>
+                    <li><a href="{{ route('morris') }}">Morris</a></li>
+                    <li><a href="{{ route('chartjs') }}">Chartjs</a></li>
+                    <li><a href="{{ route('flotchart') }}">Flot Charts</a></li>
+                    <li><a href="{{ route('xchart') }}">xChart</a></li>
                 </ul>
             </li>
             <li class="sub-menu">
@@ -117,12 +113,12 @@
                 </ul>
             </li>
             <li>
-                <a href="google_maps.html">
+                <a href="{{ route('googlemaps') }}">
                     <i class="fa fa-map-marker"></i>
                     <span>Google Maps </span>
                 </a>
             </li>
-            <li class="sub-menu">
+            {{-- <li class="sub-menu">
                 <a href="javascript:;">
                     <i class="fa fa-comments-o"></i>
                     <span>Chat Room</span>
@@ -131,39 +127,37 @@
                     <li><a href="lobby.html">Lobby</a></li>
                     <li><a href="chat_room.html"> Chat Room</a></li>
                 </ul>
-            </li>
+            </li> --}}
             <li class="sub-menu">
                 <a href="javascript:;">
                     <i class="fa fa-glass"></i>
                     <span>Extra</span>
                 </a>
                 <ul class="sub">
-                    <li><a href="blank.html">Blank Page</a></li>
-                    <li><a href="sidebar_closed.html">Sidebar Closed</a></li>
-                    <li><a href="people_directory.html">People Directory</a></li>
-                    <li><a href="coming_soon.html">Coming Soon</a></li>
-                    <li><a href="lock_screen.html">Lock Screen</a></li>
-                    <li><a href="profile.html">Profile</a></li>
-                    <li><a href="invoice.html">Invoice</a></li>
-                    <li><a href="project_list.html">Project List</a></li>
-                    <li><a href="project_details.html">Project Details</a></li>
-                    <li><a href="search_result.html">Search Result</a></li>
-                    <li><a href="pricing_table.html">Pricing Table</a></li>
-                    <li><a href="faq.html">FAQ</a></li>
-                    <li><a href="fb_wall.html">FB Wall</a></li>
-                    <li><a href="404.html">404 Error</a></li>
-                    <li><a href="500.html">500 Error</a></li>
+
+
+                    <li><a href="{{ route('profile') }}">Profile</a></li>
+
+                    <li><a href="{{ route('faq') }}">FAQ</a></li>
+                    <li><a href="{{ route('error404') }}">404 Error</a></li>
+                    <li><a href="{{ route('error500') }}">500 Error</a></li>
                 </ul>
             </li>
             <li>
-                <a href="login.html">
+                <a href="{{ route('login') }}">
                     <i class="fa fa-user"></i>
                     <span>Login Page</span>
                 </a>
             </li>
+            <li>
+                <a href="{{ route('registration') }}">
+                    <i class="fa fa-user"></i>
+                    <span>Registration Page</span>
+                </a>
+            </li>
 
             <!--multi level menu start-->
-            <li class="sub-menu">
+            {{-- <li class="sub-menu">
                 <a href="javascript:;">
                     <i class="fa fa-sitemap"></i>
                     <span>Multi level Menu</span>
@@ -184,7 +178,7 @@
                         </ul>
                     </li>
                 </ul>
-            </li>
+            </li> --}}
             <!--multi level menu end-->
 
         </ul>
