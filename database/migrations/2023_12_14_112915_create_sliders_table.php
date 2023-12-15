@@ -15,6 +15,7 @@ return new class extends Migration {
             $table->string('title');
             $table->string('sub_title');
             $table->string('banner');
+            $table->string('button_name');
             $table->timestamps();
         });
     }

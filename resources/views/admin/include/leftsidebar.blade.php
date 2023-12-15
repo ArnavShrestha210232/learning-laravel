@@ -99,7 +99,7 @@
                     <li><a href="{{ route('morris') }}">Morris</a></li>
                     <li><a href="{{ route('chartjs') }}">Chartjs</a></li>
                     <li><a href="{{ route('flotchart') }}">Flot Charts</a></li>
-                    <li><a href="{{ route('xchart') }}">xChart</a></li>
+                    <li><a href="{{ route('xcharts') }}">xCharts</a></li>
                 </ul>
             </li>
             <li class="sub-menu">
@@ -113,7 +113,7 @@
                 </ul>
             </li>
             <li>
-                <a href="{{ route('googlemaps') }}">
+                <a href="{{ route('googlemap') }}">
                     <i class="fa fa-map-marker"></i>
                     <span>Google Maps </span>
                 </a>
