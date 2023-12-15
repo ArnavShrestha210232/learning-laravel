@@ -4,7 +4,7 @@
         <section class="wrapper">
             <section class="panel">
                 <header class="panel-heading">
-                    Basic Forms
+                    Basic Form
                 </header>
                 <div class="panel-body">
                     <form role="form">
